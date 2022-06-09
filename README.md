@@ -1,9 +1,10 @@
-# CerebralArteriesSegmentation
+# Cerebral Arteries Segmentation
 
-Cerebrovascular diseases are a leading cause of death and disability worldwide with stroke
-being increasingly a major contributor. Characterizing structural and physiological changes in
-vascular structure can identify altered functioning and potential severe attacks, as well as serve
-as a practical guideline supporting the neuro-interventionist preoperative planning.
+Cerebrovascular diseases are a leading cause of death and disability worldwide with stroke being
+increasingly a major contributor. Characterizing structural and physiological changes in vascular
+structure can identify altered functioning and potential severe attacks, as well as serve as a 
+practical guideline supporting the neuro-interventionist preoperative planning.
+
 Endovascular mechanical thrombectomy (MT) is the main surgical treatment for patients with
 Acute Ischemic Stroke (AIS) assisted by traditional imaging modalities used to detect large
 vessel occlusions (LVO). Problematically, the overall tortuosity of the endovascular device
@@ -14,6 +15,12 @@ angulation and tortuosity. Recently developed approaches use semi-automatic meth
 process CTAs to obtain vascular 3D segmentations which are then further processed to
 compute features at each point of the vasculature of interest. Despite this fact, to enable its
 proper integration in the emergency room there is the need to leverage the calculation of the
-ideal access pathways to a fully-automatic configuration. The most challenging task in this
-regard is the CTA automatic segmentation of the vasculature of interest, which is the main
-scope of this project.
+ideal access pathways to a fully-automatic configuration. 
+
+The most challenging task in this regard is the CTA automatic segmentation of the vasculature of 
+interest, here a fully autoamted method is presented. Concretely, this repository contains a 
+ready to use framework where the main netwrok that one can use is UNETR [1].
+
+
+[1] Hatamizadeh, Ali, et al. “UNETR: Transformers for 3D Medical Image Segmentation.” ArXiv:2103.10504 [Cs, Eess], 
+9 Oct. 2021, arxiv.org/abs/2103.10504.
