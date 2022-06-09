@@ -19,8 +19,10 @@ ideal access pathways to a fully-automatic configuration.
 
 The most challenging task in this regard is the CTA automatic segmentation of the vasculature of 
 interest, here a fully autoamted method is presented. Concretely, this repository contains a 
-ready to use framework where the main netwrok that one can use is UNETR [1].
+ready to use framework where the main network that one can use is UNETR [1] and since the last
+edition (not optimized) SwinUNTER [2].
 
 
 [1] Hatamizadeh, Ali, et al. “UNETR: Transformers for 3D Medical Image Segmentation.” ArXiv:2103.10504 [Cs, Eess], 
 9 Oct. 2021, arxiv.org/abs/2103.10504.
+[2] Hatamizadeh, Ali, et al. “Swin UNETR: Swin Transformers for Semantic Segmentation of Brain Tumors in MRI Images.” ArXiv:2201.01266 [Cs, Eess], 4 Jan. 2022, arxiv.org/abs/2201.01266. Accessed 9 June 2022.
