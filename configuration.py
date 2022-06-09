@@ -8,20 +8,7 @@ import pickle as pkl
 
 
 #def preprocessing():
-''' ############################## Preprocessing #########################################
 
-Preprocessing of the whole dataset as described by Isensee et al. (2019).
-
-Images (labels) should be in the database_images/ (database_labels/) 
-dir inside: ./nnunet/nnUNet_base/nnUNet_raw/Task00_grid/ 
-
-Git repository: https://github.com/perecanals/nnunet_vh2020.git
-Original nnunet (Isensee et al. 2020[1]): https://github.com/MIC-DKFZ/nnUNet.git
-
-[1] Fabian Isensee, Paul F. JÃƒÆ’Ã‚Â¤ger, Simon A. A. Kohl, Jens Petersen, Klaus H. Maier-Hein "Automated Design of Deep Learning 
-Methods for Biomedical Image Segmentation" arXiv preprint arXiv:1904.08128 (2020).
-
-    '''
 ################################## Preprocessing #########################################
 
 # Paths
