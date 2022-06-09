@@ -1,0 +1,14 @@
+torch==1.9.0 
+torchvision==0.10.0 
+torchaudio==0.9.0
+scikit-image
+monai==0.7.0
+nibabel==3.1.1
+tqdm==4.59.0
+einops==0.3.0
+tensorboardX==2.1
+SimpleITK==2.0.2
+ignite
+medpy
+self_attention_cv
+batchgenerators
